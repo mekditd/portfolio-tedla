@@ -390,7 +390,7 @@ img{
 
 
 .return-home button{
-    margin: 0 auto;
+    margin-bottom: 20px;
     width: 80px;
     padding: 10px 0;
     color: #fff;
@@ -398,6 +398,41 @@ img{
     border-radius: 5px;
 }
 
+
+footer{
+    background-color: var(--mainColor);
+}
+
+.footer__groups{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__footer__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__logo{
+    align-self: center;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last__links{
+    margin: 0 15px;
+}
 
 
 @media screen and (max-width: 1200px){
